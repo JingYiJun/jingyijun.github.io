@@ -18,4 +18,5 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           branch: main
+          repo: JingYiJun/JingYiJun.github.io
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
