@@ -108,7 +108,6 @@ main = [ ]
   identifier = "github"
   name = "GitHub"
   url = "https://github.com/jingyijun"
-  weight = -10
 
     [menu.social.params]
     icon = "brand-github"
@@ -118,7 +117,6 @@ main = [ ]
   identifier = "zhihu"
   name = "Zhihu"
   url = "https://www.zhihu.com/people/mgjing-yi"
-  weight = -20
 
     [menu.social.params]
     icon = "brand-zhihu"
@@ -128,7 +126,6 @@ main = [ ]
   identifier = "bilibili"
   name = "Bilibili"
   url = "https://space.bilibili.com/389889267"
-  weight = -30
 
     [menu.social.params]
     icon = "brand-bilibili"
