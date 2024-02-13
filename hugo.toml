@@ -2,14 +2,14 @@ baseurl = "https://blog.jingyijun.xyz"
 languageCode = "zh-cn"
 theme = "hugo-theme-stack"
 paginate = 5
-title = "精益君的生活笔记"
+title = "精益君"
 disqusShortname = "hugo-theme-stack"
 DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
 [languages.zh-cn]
 languageName = "中文"
-title = "精益君的生活笔记"
+title = "精益君"
 weight = 1
 
 [languages.en]
@@ -36,12 +36,12 @@ published = "2006-01-02"
 lastUpdated = "2006-01-02 15:04 MST"
 
 [params.sidebar]
-subtitle = "你好世界！"
+subtitle = "初学者"
 
 [params.sidebar.avatar]
 enabled = true
 local = true
-src = "img/qq头像.jpg"
+src = "img/avatar.jpg"
 
 [params.article]
 math = false
