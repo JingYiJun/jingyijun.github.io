@@ -1,0 +1,162 @@
+baseurl = "https://blog.jingyijun.xyz"
+languageCode = "zh-cn"
+theme = "hugo-theme-stack"
+paginate = 5
+title = "精益君的生活笔记"
+disqusShortname = "hugo-theme-stack"
+DefaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+[languages.zh-cn]
+languageName = "中文"
+title = "精益君的生活笔记"
+weight = 1
+
+[languages.en]
+languageName = "English"
+title = "jingyijun's blog"
+weight = 2
+
+[permalinks]
+post = "/p/:year/:month/:day/:filename"
+page = "/:slug/"
+
+[params]
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+favicon = "/favicon.ico"
+
+[params.footer]
+since = 2022
+customText = "沪ICP备2021032046号"
+
+[params.dateFormat]
+published = "2006-01-02"
+lastUpdated = "2006-01-02 15:04 MST"
+
+[params.sidebar]
+subtitle = "你好世界！"
+
+[params.sidebar.avatar]
+enabled = true
+local = true
+src = "img/qq头像.jpg"
+
+[params.article]
+math = false
+toc = true
+readingTime = true
+
+[params.article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+[params.comments]
+enabled = true
+provider = "cusdis"
+
+[params.comments.cusdis]
+host = "https://cusdis.com"
+id = "abcc0930-09f9-44c7-ae9b-f51862a75d63"
+
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+
+[params.widgets.homepage.params]
+limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.page]]
+type = "toc"
+
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[menu]
+main = []
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/jingyijun"
+
+[menu.social.params]
+icon = "brand-github"
+newTab = true
+
+[[menu.social]]
+identifier = "zhihu"
+name = "Zhihu"
+url = "https://www.zhihu.com/people/mgjing-yi"
+
+[menu.social.params]
+icon = "brand-zhihu"
+newTab = true
+
+[[menu.social]]
+identifier = "bilibili"
+name = "Bilibili"
+url = "https://space.bilibili.com/389889267"
+
+[menu.social.params]
+icon = "brand-bilibili"
+newTab = true
+
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "categories"
+weight = 200
+
+[markup.goldmark.renderer]
+unsafe = false
+
+[markup.tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
