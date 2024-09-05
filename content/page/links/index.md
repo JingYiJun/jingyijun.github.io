@@ -7,6 +7,14 @@ links:
     description: 张子昕的博客
     website: https://blog.xzzzx.xyz
     image: https://blog.xzzzx.xyz/favicon.ico
+  - title: PWM神
+    description: Cameudis Blog
+    website: https://www.cameudis.com
+    image: https://www.cameudis.com/favicon.ico
+  - title: 系统神
+    description: Boreas618 Blog
+    website: https://boreas618.github.io
+    image: https://boreas618.github.io/favicon.ico
 menu:
     main: 
         weight: -50
