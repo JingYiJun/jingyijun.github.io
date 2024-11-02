@@ -29,7 +29,7 @@ favicon = "/favicon.ico"
 
 [params.footer]
 since = 2022
-customText = "沪ICP备2021032046号"
+beian = "沪ICP备2021032046号-2"
 
 [params.dateFormat]
 published = "2006-01-02"
