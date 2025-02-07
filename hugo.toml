@@ -1,7 +1,6 @@
 baseurl = "https://blog.jingyijun.xyz"
 languageCode = "zh-cn"
 theme = "hugo-theme-stack"
-paginate = 5
 title = "精益君"
 disqusShortname = "hugo-theme-stack"
 DefaultContentLanguage = "zh-cn"
@@ -20,6 +19,10 @@ weight = 2
 [permalinks]
 post = "/p/:year/:month/:day/:filename"
 page = "/:slug/"
+
+[pagination]
+disableAliases = false
+pagerSize = 10
 
 [params]
 mainSections = ["post"]
